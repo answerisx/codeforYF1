@@ -1,0 +1,8 @@
+# author: Yang Fan
+# create time: 2020.7.5
+
+import docx
+
+document = docx.Document("车辆基地作业计划编制系统的研究与实现（终版）.docx")
+
+print('段落数：'+str(len(document.paragraphs)))
